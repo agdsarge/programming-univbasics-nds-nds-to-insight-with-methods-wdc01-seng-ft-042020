@@ -20,8 +20,10 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   #nds is an array of director hashes. 
-  puts nds.class
-  puts nds
+  array_index = 0
+  while array_index < nds.length do
+    nds[array_index][:name]
+  end
   result = {}
   
 end
