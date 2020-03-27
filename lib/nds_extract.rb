@@ -21,6 +21,7 @@ end
 def directors_totals(nds)
   #nds is a 
   puts nds.class
+  puts nds
   result = {}
   
 end
