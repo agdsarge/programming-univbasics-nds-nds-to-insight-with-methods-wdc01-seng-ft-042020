@@ -17,3 +17,5 @@ def directors_totals(nds)
   result = {}
   nil
 end
+
+gross_for_director()
