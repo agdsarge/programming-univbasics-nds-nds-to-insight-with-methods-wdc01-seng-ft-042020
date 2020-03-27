@@ -19,7 +19,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  #nds is a 
+  #nds is an array of director hashes. 
   puts nds.class
   puts nds
   result = {}
