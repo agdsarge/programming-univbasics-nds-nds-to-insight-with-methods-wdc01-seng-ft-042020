@@ -19,7 +19,8 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  puts nds
+  #nds is a 
+  puts nds.class
   result = {}
   
 end
