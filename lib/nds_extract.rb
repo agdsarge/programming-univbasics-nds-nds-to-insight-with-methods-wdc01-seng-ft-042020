@@ -18,4 +18,3 @@ def directors_totals(nds)
   nil
 end
 
-gross_for_director()
