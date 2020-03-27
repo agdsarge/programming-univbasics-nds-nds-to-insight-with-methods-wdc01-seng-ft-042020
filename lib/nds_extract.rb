@@ -21,10 +21,12 @@ end
 def directors_totals(nds)
   #nds is an array of director hashes. 
   array_index = 0
-  while array_index < nds.length do
-    nds[array_index][:name]
-  end
   result = {}
+  while array_index < nds.length do
+    result[nds[array_index][:name]] = gross_for_director(nds[array_index])
+    array_index += 1
+  end
+  return result
   
 end
 
